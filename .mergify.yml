@@ -1,0 +1,9 @@
+extends: org-secret
+
+pull_request_rules:
+  - name: s23 local rule
+    conditions:
+      - -closed
+    actions:
+      label:
+        add: [s23-local]
