@@ -1,4 +1,4 @@
-extends: org-secret
+extends: s23-source
 
 pull_request_rules:
   - name: s23 local rule
